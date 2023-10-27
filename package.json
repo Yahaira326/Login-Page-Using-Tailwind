@@ -1,0 +1,16 @@
+{
+  "name": "login-page-using-tailwind",
+  "version": "1.0.0",
+  "description": "Login Form Using Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
